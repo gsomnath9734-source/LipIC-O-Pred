@@ -52,8 +52,9 @@ def get_base64_image_from_url(url):
     response.raise_for_status()
     return base64.b64encode(response.content).decode()
 
-# Use the raw GitHub URL, NOT the blob page URL
-img_base64 = get_base64_image_from_url("https://github.com/gsomnath9734-source/LipIC-O-Pred/blob/main/Logo.png")
+img_base64 = get_base64_image_from_url(
+    "https://raw.githubusercontent.com/gsomnath9734-source/LipIC-O-Pred/main/Logo.png"
+)
 
 st.markdown(
     f"""
