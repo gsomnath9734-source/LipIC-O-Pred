@@ -367,7 +367,7 @@ if st.session_state.show_manual:
       <p class="body-text">
         <strong>Platform:</strong> Web-based (Runs in any modern browser)<br>
         <strong>Python:</strong> v3.8 or higher<br>
-        <strong>Required Packages:</strong> streamlit, streamlit_ketcher, pandas, numpy, rdkit, scikit-learn, pillow, IPythonConsole, rasar
+        <strong>Required Packages:</strong> streamlit, streamlit_ketcher, pandas, numpy, rdkit, scikit-learn, pillow, rasar
       </p>
 
       <br>
