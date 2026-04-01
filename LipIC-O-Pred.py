@@ -394,7 +394,7 @@ if st.session_state.show_manual:
 
       <div class="step-row">
         <span class="step-label">Step 4</span>
-        <span class="step-desc"><strong>Interpretation of Results</strong> — The predicted pIC₅₀ value reflects the inhibitory potential of the compound against pancreatic lipase in <strong>Micromolar (μM)</strong> unit, where higher values indicate stronger inhibitory activity. The AD status provides information about the reliability of the prediction by indicating whether the query compound falls within the chemical space of the model. Users are encouraged to consider both parameters while interpreting the results for better decision-making.</span>
+        <span class="step-desc"><strong>Interpretation of Results</strong> — The predicted pIC₅₀ value reflects the inhibitory potential of the compound against pancreatic lipase in <strong>micromolar (μM)</strong> unit, where higher values indicate stronger inhibitory activity. The AD status provides information about the reliability of the prediction by indicating whether the query compound falls within the chemical space of the model. Users are encouraged to consider the pIC₅₀ value of <strong>Orlistat</strong>, and FDA approved compound and the above parameters while interpreting the results for better decision-making.</span>
       </div>
 
       <div class="step-row">
