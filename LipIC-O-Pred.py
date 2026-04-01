@@ -408,9 +408,7 @@ if st.session_state.show_manual:
       <!-- 4. Conditions -->
       <p class="sec-heading">Conditions of Use</p>
       <p class="body-text">
-        This software is intended for research purposes only. This tool incorporates the research work described in <strong>S. Pore, K. Roy, “‘intelligent Read Across (iRA)’- A tool for read-across-based toxicity prediction of nanoparticles” Comput. Struct. Biotechnol. J. 2025, 29, 186–200</strong>, and citating this publication is mandatory in any work utilizing the system or its outputs. For any inconvenience related to the system or calculations, please feel free to contact the individual listed in the contact information section.
-      </p>
-
+        This software is intended for research purposes only. This tool incorporates the research work described in <strong>S. Pore, K. Roy, “‘intelligent Read Across (iRA)’- A tool for read-across-based toxicity prediction of nanoparticles” Comput. Struct. Biotechnol. J. 2025, 29, 186–200</strong>, and citating this publication is mandatory in any work utilizing the system or its outputs. For any inconvenience related to the system or calculations, please feel free to contact the individual listed in the contact information section.</p>
     </div>
 
     <br>
