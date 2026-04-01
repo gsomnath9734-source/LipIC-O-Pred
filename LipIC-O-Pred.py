@@ -416,7 +416,7 @@ if st.session_state.show_manual:
    <ol class="body-text">
   <li>A. Banerjee, K. Roy, “First report of q-RASAR modeling toward an approach of easy interpretability and efficient transferability” Mol. Divers. 2022, 26, 2847–2862</li>
   <li>S. Pore, K. Roy, “‘intelligent Read Across (iRA)’ - A tool for read-across-based toxicity prediction of nanoparticles” Comput. Struct. Biotechnol. J. 2025, 29, 186–200.</li>
-  </ol>
+  </p>
     """, unsafe_allow_html=True)
 
 if st.session_state.show_info:
