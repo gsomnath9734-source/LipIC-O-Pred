@@ -184,30 +184,32 @@ with col1:
     """,
     unsafe_allow_html=True)
 
+    st.markdown("<h2 style='text-align: center;'>Or</h2>", unsafe_allow_html=True)
     st.markdown("""
     <style>
     /* Upload area styling */
     [data-testid="stFileUploader"] {
-    background-color: #f1f3f6;
-    border: 2px dashed #d0d7de;
-    border-radius: 10px;
-    padding: 10px;
+        background-color: #ffffff;
+        border: 2px dashed #ffffff;
+        border-radius: 10px;
+        padding: 10px;
     }
 
-    /* Uploaded file (green bar like your image) */
+    /* Uploaded file name area */
     [data-testid="stFileUploaderFile"] {
-    background-color: #c8e6c9 !important;
-    border: none !important;
-    border-radius: 8px;
-    padding: 10px;
-    color: #1b5e20;
+        background-color: #c8e6c9;
+        border: 1px solid #ffffff;
+        border-radius: 6px;
+        padding: 5px 10px;
+        color: #2e7d32;
     }
 
-    /* Browse button fix */
+    /* Browse files button */
     [data-testid="stFileUploaderDropzoneInput"] + div button {
-    background-color: #ffffff !important;
-    color: #31333f !important;
-    border-radius: 6px;
+        background-color: #ffffff !important;
+        color: white !important;
+        border: none;
+        border-radius: 6px;
     }
     </style>
     """, unsafe_allow_html=True)
