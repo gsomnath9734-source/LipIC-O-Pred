@@ -415,7 +415,7 @@ if st.session_state.show_manual:
     <!-- 5. Cite -->
    <p class="sec-heading">Cite</p>
    <p class="body-text">
-   1. A. Banerjee, K. Roy, “First report of q-RASAR modeling toward an approach of easy interpretability and efficient transferability” Mol. Divers. 2022, 26, 2847–2862<br><br>
+   1. A. Banerjee, K. Roy, “First report of q-RASAR modeling toward an approach of easy interpretability and efficient transferability” Mol. Divers. 2022, 26, 2847–2862<br>
    2. S. Pore, K. Roy, “‘intelligent Read Across (iRA)’ - A tool for read-across-based toxicity prediction of nanoparticles” Comput. Struct. Biotechnol. J. 2025, 29, 186–200.
    </p>
     """, unsafe_allow_html=True)
