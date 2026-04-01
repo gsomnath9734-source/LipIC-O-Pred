@@ -412,6 +412,14 @@ if st.session_state.show_manual:
       </p>
 
     </div>
+
+    <br>
+
+    <!-- 5. Cite -->
+    <p class="sec-heading">Cite</p>
+    <p class="body-text">
+      S. Pore, K. Roy, “‘intelligent Read Across (iRA)’ - A tool for read-across-based toxicity prediction of nanoparticles” Comput. Struct. Biotechnol. J. 2025, 29, 186–200.
+    </p>
     """, unsafe_allow_html=True)
 
 if st.session_state.show_info:
