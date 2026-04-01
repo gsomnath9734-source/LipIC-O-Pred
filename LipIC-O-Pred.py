@@ -408,9 +408,8 @@ if st.session_state.show_manual:
       <!-- 4. Conditions -->
       <p class="sec-heading">Conditions of Use</p>
       <p class="body-text">
-        This software has been developed by the DTC Lab and is intended solely for research purposes. For any inconvenience related to the system or calculations, please feel free to contact the individual listed in the contact information section.</p>
-
-    <br>
+        This software has been developed by the DTC Lab and is intended solely for research purposes. For any inconvenience related to the system or calculations, please feel free to contact the individual listed in the contact information section.
+        </p>
 
     <!-- 5. How to Cite -->
    <p class="sec-heading">How to Cite</p>
