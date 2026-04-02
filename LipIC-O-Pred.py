@@ -123,9 +123,9 @@ def main_function():
                 st.image(img, width=300)
             st.markdown(f"**Predicted pIC₅₀ Value:** {predicted_pic50[0]:.2f}")
             if predicted_pic50[0] >=4.7599:
-                st.markdown("The compound is active based on the training set mean")
+                st.markdown("##The compound is active based on the training set mean")
             else:
-                st.markdown("The compound is inactive based on the training set mean")
+                st.markdown("##The compound is inactive based on the training set mean")
             st.markdown(f"**Applicability Domain (AD) Status:** {ad_status['AD Status'].values[0]}")
             st.markdown(
             """
@@ -150,6 +150,7 @@ def main_function():
             "Sl. No.": target_df.index.values,
             "Query SMILES": target_df.iloc[:, 0],
             "Predicted pIC₅₀ Value": predicted_pic50,
+            "Predicted Class": np.where(predicted_pic50 >= 4.7599, "active", "inactive"),
             "AD Status": ad_status["AD Status"].values
         })
         with col2:
