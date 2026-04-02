@@ -127,7 +127,7 @@ def main_function():
             """
             <div style="font-size:16px; text-align: justify;">
             <b>Note:</b> The predicted pIC₅₀ (μM) and AD status (leverage method) are obtained using the q-RASAR model (RA function descriptor). 
-            “Within AD” indicates reliable predictions within the model’s chemical space, while “Outside AD” suggests outside the chemical space. The compound with highest pIC₅₀ value in our training set model is 7.455 and lowest is 3.097. Interprete the quary compounds accordingly. 
+            “Within AD” indicates reliable predictions within the model’s chemical space, while “Outside AD” suggests outside the chemical space. The compound with highest pIC₅₀ value in our training set of our model is 7.455 and lowest is 3.097. Interprete the quary compounds accordingly. 
             </div>
             """,
             unsafe_allow_html=True
@@ -156,7 +156,7 @@ def main_function():
             """
             <div style="font-size:16px; text-align: justify;">
             <b>Note:</b> The predicted pIC₅₀ (μM) and AD status (leverage method) are obtained using the q-RASAR model (RA function descriptor). 
-            “Within AD” indicates reliable predictions within the model’s chemical space, while “Outside AD” suggests outside the chemical space. The compound with highest pIC₅₀ value in our training set model is 7.455 and lowest is 3.097. Interprete the quary compounds accordingly.
+            “Within AD” indicates reliable predictions within the model’s chemical space, while “Outside AD” suggests outside the chemical space. The compound with highest pIC₅₀ value in our training set of our model is 7.455 and lowest is 3.097. Interprete the quary compounds accordingly.
             </div>
             """,
             unsafe_allow_html=True
