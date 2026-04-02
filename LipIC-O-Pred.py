@@ -126,8 +126,8 @@ def main_function():
             st.markdown(
             """
             <div style="font-size:16px; text-align: justify;">
-            <b>Note:</b> The predicted pIC₅₀ (μM) and AD status (leverage method) are obtained using the q-RASAR model (RA function descriptor). 
-            “Within AD” indicates reliable predictions within the model’s chemical space, while “Outside AD” suggests outside the chemical space. The compound with highest pIC₅₀ value in our training set of our model is 7.455 and lowest is 3.097. Interprete the quary compounds accordingly. 
+            <b>Note:</b> The predicted pIC₅₀ (μM) and AD status (leverage method) are obtained using the q-RASAR model (RA function as a descriptor). 
+            “Within AD” indicates reliable predictions within the model’s chemical space, while “Outside AD” suggests outside the chemical space. The compound with highest pIC₅₀ value in our training set is 7.455 and lowest is 3.097. Interprete the quary compounds accordingly. 
             </div>
             """,
             unsafe_allow_html=True
@@ -155,8 +155,8 @@ def main_function():
             st.markdown(
             """
             <div style="font-size:16px; text-align: justify;">
-            <b>Note:</b> The predicted pIC₅₀ (μM) and AD status (leverage method) are obtained using the q-RASAR model (RA function descriptor). 
-            “Within AD” indicates reliable predictions within the model’s chemical space, while “Outside AD” suggests outside the chemical space. The compound with highest pIC₅₀ value in our training set of our model is 7.455 and lowest is 3.097. Interprete the quary compounds accordingly.
+            <b>Note:</b> The predicted pIC₅₀ (μM) and AD status (leverage method) are obtained using the q-RASAR model (RA function as a descriptor). 
+            “Within AD” indicates reliable predictions within the model’s chemical space, while “Outside AD” suggests outside the chemical space. The compound with highest pIC₅₀ value in our training set is 7.455 and lowest is 3.097. Interprete the quary compounds accordingly.
             </div>
             """,
             unsafe_allow_html=True
@@ -186,7 +186,6 @@ with col1:
     unsafe_allow_html=True)
 
     st.markdown("<h2 style='text-align: center;'>Or</h2>", unsafe_allow_html=True)
-    
     
     input_label1 = "Upload SMILES Input (.xlsx) and Run Analysis"
     st.markdown(f"<p style='font-size: 18px; font-weight: 600; color: #31333f;'>{input_label1}</p>", unsafe_allow_html=True)
