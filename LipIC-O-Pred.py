@@ -172,17 +172,7 @@ with col1:
     smi_code = st_ketcher()
     input_label = "Enter or Edit SMILES and Run Analysis"
     smiles_input = st.text_input(input_label, value=smi_code)
-    st.markdown(
     
-    <style>
-    div[data-testid="stTextInput"] label * {
-        font-size: 18px !important;
-        font-weight: 600 !important;
-        color: #31333f !important;
-    }
-    </style>
-    ,
-    unsafe_allow_html=True)
 
     st.markdown("<h2 style='text-align: center;'>Or</h2>", unsafe_allow_html=True)
     
