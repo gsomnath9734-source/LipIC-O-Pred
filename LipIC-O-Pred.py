@@ -394,7 +394,7 @@ if st.session_state.show_manual:
 
       <div class="step-row">
         <span class="step-label">Step 4</span>
-        <span class="step-desc"><strong>Interpretation of Results</strong> — The predicted pIC₅₀ value reflects the inhibitory potential of the compound against pancreatic lipase in <strong>Micromolar (μM)</strong> unit, where higher values indicate stronger inhibitory activity. The AD status provides information about the reliability of the prediction by indicating whether the query compound falls within the chemical space of the model. Users are encouraged to consider both parameters while interpreting the results for better decision-making.</span>
+        <span class="step-desc"><strong>Interpretation of Results</strong> — The predicted pIC₅₀ value reflects the inhibitory potential of the compound against pancreatic lipase in <strong>micromolar (μM)</strong> unit, where higher values indicate stronger inhibitory activity. The AD status provides information about the reliability of the prediction by indicating whether the query compound falls within the chemical space of the model. Users are encouraged to consider the pIC₅₀ value of <strong>Orlistat</strong> (between 4 to 8 depending on experimental condition variations), an FDA-approved compound and the above parameters while interpreting the results for better decision-making.</span>
       </div>
 
       <div class="step-row">
@@ -408,10 +408,16 @@ if st.session_state.show_manual:
       <!-- 4. Conditions -->
       <p class="sec-heading">Conditions of Use</p>
       <p class="body-text">
-        This software is intended for research purposes only. This tool incorporates the research work described in <strong>S. Pore, K. Roy, “‘intelligent Read Across (iRA)’- A tool for read-across-based toxicity prediction of nanoparticles” Comput. Struct. Biotechnol. J. 2025, 29, 186–200</strong>, and citating this publication is mandatory in any work utilizing the system or its outputs. For any inconvenience related to the system or calculations, please feel free to contact the individual listed in the contact information section.
-      </p>
+      This software has been developed by the DTC Lab and is intended solely for research purposes. For any inconvenience related to the system or calculations, please feel free to contact the individual listed in the contact information section.</p>
+        
+    <br>
 
-    </div>
+    <!-- 5. How to Cite -->
+   <p class="sec-heading">How to Cite</p>
+   <p class="body-text">
+   1. A. Banerjee, K. Roy, “First report of q-RASAR modeling toward an approach of easy interpretability and efficient transferability” Mol. Divers. 2022, 26, 2847–2862<br>
+   2. S. Pore, K. Roy, “‘intelligent Read Across (iRA)’ - A tool for read-across-based toxicity prediction of nanoparticles” Comput. Struct. Biotechnol. J. 2025, 29, 186–200.
+   </p>
     """, unsafe_allow_html=True)
 
 if st.session_state.show_info:
