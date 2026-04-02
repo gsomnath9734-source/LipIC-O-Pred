@@ -110,6 +110,7 @@ def main_function():
         rasar_desc = ra_pred(df1=qsar_data, df2 = desc_df).weighted_prediction(method="Laplacian Kernel", ctc=4, gamma=0.25)
         rasar_desc.name = "RA function(LK)"
         predicted_pic50 = mlr_model.predict(rasar_desc.values.reshape(1, -1))
+       
         __, ad_status, __ = leverage_calculator(data1=rasar_data.iloc[:, :-1], data2=rasar_desc.to_frame().T)
         
         with col2:
@@ -121,6 +122,10 @@ def main_function():
             with center:
                 st.image(img, width=300)
             st.markdown(f"**Predicted pIC₅₀ Value:** {predicted_pic50[0]:.2f}")
+            if predicted_pic50[0] >=4.7599:
+                st.markdown("The compound is active based on the training set mean")
+            else:
+                st.markdown("The compound is inactive based on the training set mean")
             st.markdown(f"**Applicability Domain (AD) Status:** {ad_status['AD Status'].values[0]}")
             st.markdown(
             """
