@@ -173,7 +173,7 @@ with col1:
     input_label = "Enter or Edit SMILES and Run Analysis"
     smiles_input = st.text_input(input_label, value=smi_code)
     st.markdown(
-    """
+    
     <style>
     div[data-testid="stTextInput"] label * {
         font-size: 18px !important;
@@ -181,11 +181,11 @@ with col1:
         color: #31333f !important;
     }
     </style>
-    """,
+    ,
     unsafe_allow_html=True)
 
     st.markdown("<h2 style='text-align: center;'>Or</h2>", unsafe_allow_html=True)
-    st.markdown("""
+    st.markdown(
     <style>
     /* Upload area styling */
     [data-testid="stFileUploader"] {
@@ -212,7 +212,7 @@ with col1:
         border-radius: 6px;
     }
     </style>
-    """, unsafe_allow_html=True)
+    , unsafe_allow_html=True)
     
     input_label1 = "Upload SMILES Input (.xlsx) and Run Analysis"
     st.markdown(f"<p style='font-size: 18px; font-weight: 600; color: #31333f;'>{input_label1}</p>", unsafe_allow_html=True)
