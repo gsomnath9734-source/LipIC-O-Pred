@@ -184,36 +184,35 @@ with col1:
     """,
     unsafe_allow_html=True)
 
-        st.markdown("<h2 style='text-align: center;'>Or</h2>", unsafe_allow_html=True)
-        st.markdown("""
-        <style>
-        /* Upload area styling */
-        [data-testid="stFileUploader"] {
-            background-color: #ffffff;
-            border: 2px dashed #ffffff;
-            border-radius: 10px;
-            padding: 10px;
-        }
+    st.markdown("<h2 style='text-align: center;'>Or</h2>", unsafe_allow_html=True)
+    st.markdown("""
+    <style>
+    /* Upload area styling */
+    [data-testid="stFileUploader"] {
+        background-color: #ffffff;
+        border: 2px dashed #ffffff;
+        border-radius: 10px;
+        padding: 10px;
+    }
 
-        /* Uploaded file name area */
-        [data-testid="stFileUploaderFile"] {
-            background-color: #c8e6c9;
-            border: 1px solid #ffffff;
-            border-radius: 6px;
-            padding: 5px 10px;
-            color: #2e7d32;
-        }
+    /* Uploaded file name area */
+    [data-testid="stFileUploaderFile"] {
+        background-color: #c8e6c9;
+        border: 1px solid #ffffff;
+        border-radius: 6px;
+        padding: 5px 10px;
+        color: #2e7d32;
+    }
 
-        /* Browse files button */
-        [data-testid="stFileUploaderDropzoneInput"] + div button {
-            background-color: #ffffff !important;
-            color: white !important;
-            border: none;
-            border-radius: 6px;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True)
+    /* Browse files button */
+    [data-testid="stFileUploaderDropzoneInput"] + div button {
+        background-color: #ffffff !important;
+        color: white !important;
+        border: none;
+        border-radius: 6px;
+    }
+    </style>
+""", unsafe_allow_html=True)
     
     input_label1 = "Upload SMILES Input (.xlsx) and Run Analysis"
     st.markdown(f"<p style='font-size: 18px; font-weight: 600; color: #31333f;'>{input_label1}</p>", unsafe_allow_html=True)
