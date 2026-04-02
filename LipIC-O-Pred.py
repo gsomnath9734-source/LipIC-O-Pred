@@ -212,7 +212,7 @@ with col1:
         border-radius: 6px;
     }
     </style>
-""", unsafe_allow_html=True)
+    """, unsafe_allow_html=True)
     
     input_label1 = "Upload SMILES Input (.xlsx) and Run Analysis"
     st.markdown(f"<p style='font-size: 18px; font-weight: 600; color: #31333f;'>{input_label1}</p>", unsafe_allow_html=True)
