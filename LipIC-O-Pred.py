@@ -184,39 +184,36 @@ with col1:
     """,
     unsafe_allow_html=True)
 
-    st.markdown("<h2 style='text-align: center;'>Or</h2>", unsafe_allow_html=True)
-    st.markdown("""
-    <style>
-    /* Upload area styling */
-    [data-testid="stFileUploader"] > div:first-child {
-    background-color: #f0f2f6 !important;
-    border: 1px solid #e0e0e0 !important;
-    border-radius: 10px !important;
-    padding: 10px !important;
-    }
-    /* Uploaded file name area */
-    [data-testid="stFileUploaderFile"] {
-    background-color: #c8e6c9 !important;
-    border: 1px solid #ffffff !important;
-    border-radius: 6px !important;
-    padding: 5px 10px !important;
-    color: #2e7d32 !important;
-    }
-    /* File name and size text */
-    [data-testid="stFileUploaderFileName"],
-    [data-testid="stFileUploaderFileData"] small {
-    color: #2e7d32 !important;
-    font-weight: 500 !important;
-    }
-    /* Browse files button */
-    [data-testid="stFileUploaderDropzone"] button {
-    background-color: #ffffff !important;
-    color: #31333f !important;
-    border: 1px solid #d0d0d0 !important;
-    border-radius: 6px !important;
-    }
-    </style>
-    """, unsafe_allow_html=True)
+        st.markdown("<h2 style='text-align: center;'>Or</h2>", unsafe_allow_html=True)
+        st.markdown("""
+        <style>
+        /* Upload area styling */
+        [data-testid="stFileUploader"] {
+            background-color: #ffffff;
+            border: 2px dashed #ffffff;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        /* Uploaded file name area */
+        [data-testid="stFileUploaderFile"] {
+            background-color: #c8e6c9;
+            border: 1px solid #ffffff;
+            border-radius: 6px;
+            padding: 5px 10px;
+            color: #2e7d32;
+        }
+
+        /* Browse files button */
+        [data-testid="stFileUploaderDropzoneInput"] + div button {
+            background-color: #ffffff !important;
+            color: white !important;
+            border: none;
+            border-radius: 6px;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True)
     
     input_label1 = "Upload SMILES Input (.xlsx) and Run Analysis"
     st.markdown(f"<p style='font-size: 18px; font-weight: 600; color: #31333f;'>{input_label1}</p>", unsafe_allow_html=True)
