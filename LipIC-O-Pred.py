@@ -127,7 +127,7 @@ def main_function():
             """
             <div style="font-size:16px; text-align: justify;">
             <b>Note:</b> The predicted pIC₅₀ (μM) and AD status (leverage method) are obtained using the q-RASAR model (RA function as a descriptor). 
-            “Within AD” indicates reliable predictions within the model’s chemical space, while “Outside AD” suggests outside the chemical space. The compound with highest pIC₅₀ value in our training set is 7.455 (PubChem CID 441774) and lowest is 3.097 (PubChem CID 45359992). Interprete the query compounds accordingly. 
+            “Within AD” indicates reliable predictions within the model’s chemical space, while “Outside AD” suggests outside the chemical space. The compound with the highest pIC₅₀ value in our training set is 7.455 (PubChem CID 441774), and the lowest is 3.097 (PubChem CID 45359992). Interpret the query compounds accordingly. 
             </div>
             """,
             unsafe_allow_html=True
@@ -157,7 +157,7 @@ def main_function():
             """
             <div style="font-size:16px; text-align: justify;">
             <b>Note:</b> The predicted pIC₅₀ (μM) and AD status (leverage method) are obtained using the q-RASAR model (RA function as a descriptor). 
-            “Within AD” indicates reliable predictions within the model’s chemical space, while “Outside AD” suggests outside the chemical space. The compound with highest pIC₅₀ value in our training set is 7.455 (PubChem CID 441774) and lowest is 3.097 (PubChem CID 45359992). Interprete the query compounds accordingly.
+            “Within AD” indicates reliable predictions within the model’s chemical space, while “Outside AD” suggests outside the chemical space. The compound with the highest pIC₅₀ value in our training set is 7.455 (PubChem CID 441774), and the lowest is 3.097 (PubChem CID 45359992). Interpret the query compounds accordingly.
             </div>
             """,
             unsafe_allow_html=True
