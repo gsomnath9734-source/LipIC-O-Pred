@@ -339,9 +339,8 @@ if st.session_state.show_manual:
       <!-- 2. System Requirements -->
       <p class="sec-heading">System Requirements</p>
       <p class="body-text">
-        <strong>Platform:</strong> Web-based (Runs in any modern browser)<br>
-        <strong>Python:</strong> v3.8 or higher<br>
-        <strong>Required Packages:</strong> streamlit, streamlit_ketcher, pandas, numpy, rdkit, scikit-learn, pillow, rasar
+        <strong>Platform:</strong> Runs in any modern browser<br>
+        
       </p>
 
       <br>
